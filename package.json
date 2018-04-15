@@ -1,0 +1,25 @@
+{ "name": "node-r_esm",
+  "version": "0.1.0",
+  "description": "Little wrapper script to allow running your .mjs file via its shebang",
+  "keywords": [ "esm", "shebang"],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/node-r_esm/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/node-r_esm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/node-r_esm/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "bin": "resm.sh",
+  "scripts": { "test": "./test/shebang.mjs" },
+  "directories": { "test": "test" },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
